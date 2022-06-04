@@ -20,7 +20,6 @@
       <div id="unity-warning"></div>
       </div>
     </div>
-    <script src="web3/index.js"></script>
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -57,15 +56,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/azomlandv003.loader.js";
+      var loaderUrl = buildUrl + "/betaverso.loader.js";
       var config = {
-        dataUrl: buildUrl + "/azomlandv003.data.unityweb",
-        frameworkUrl: buildUrl + "/azomlandv003.framework.js.unityweb",
-        codeUrl: buildUrl + "/azomlandv003.wasm.unityweb",
+        dataUrl: buildUrl + "/5e7226fff91ff841f486c2eabecd15dd.data.unityweb",
+        frameworkUrl:
+          buildUrl + "/60e23471ce27be7b10282f0fe727b0e1.js.unityweb",
+        codeUrl: buildUrl + "/b772eecbebcd2fa9496912824c2ccf69.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Azomland Partyverso",
-        productName: "Betaverse of Azomland",
-        productVersion: "0.1",
+        companyName: "Azomland Metaverse",
+        productName: "Azomland",
+        productVersion: "0.01",
         showBanner: unityShowBanner,
       };
 
